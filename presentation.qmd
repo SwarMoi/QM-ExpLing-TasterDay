@@ -1,0 +1,172 @@
+---
+title: "Brainwaves Decoded: A Peek into EEG Preprocessing"
+title-slide-attributes:
+  #data-background-image: /img/bangla.png
+  data-background-size: 60%
+  data-background-position: top
+  #data-background-opacity: "0.5"
+subtitle: "Experimental Linguistics Taster Day &nbsp;&nbsp;&nbsp; Leyton Sixth Form College"
+format: 
+  revealjs:
+    theme: css/style.scss
+    multiplex: false
+    highlight-style: printing
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 4
+      buttons: true
+    pause: true
+    mainfont: Cabinet Grotesk
+    footer: '**[Swarnendu Moitra](https://swarmoi.github.io.com)** //   swarmoi.github.io // Jun 12, 2024 '
+  #  logo: https://d33wubrfki0l68.cloudfront.net/d4cd9bd8e591d8973d68f98a71544bbe65d53733/79b34/img/logo.png
+editor: source
+knitr:
+  opts_chunk: 
+    dev: "ragg_png"
+    retina: 1
+    dpi: 200
+execute:
+  freeze: auto
+  cache: true
+  echo: true
+  fig-width: 5
+  fig-height: 6
+---
+
+## Why Do We Need to Tidy Up Brainwaves?
+
+::: incremental
+-   The raw data from EEG is messy, kind of like a radio with lots of stations playing at once.
+-   Preprocessing and analysis help us isolate the “songs” we want to hear from the brain.
+:::
+
+::: fragment
+![](img/01_PreProc.png)
+:::
+
+::: footer
+:::
+
+## What Are We Tuning Into?
+
+::: incremental
+-   Brain cells (neurons) create tiny electrical signals when they talk to each other.
+-   Taken together, clustered activities are connected to different things your brain does, like focusing, daydreaming, or sleeping.
+:::
+
+::: fragment
+![](img/02_Raw_plot.png){fig-align="center"}
+:::
+
+# Preprocessing: Spring Cleaning for Brainwaves!
+
+## 1. Removing Unwanted Signals
+
+::: incremental
+-   Sometimes we pick up other signals, like from your eyes blinking or muscles moving.
+-   We use special tools to get rid of those extra noises.
+:::
+
+::: fragment
+![](img/03_Artifacts.png){fig-align="center" width="1000"}
+:::
+
+## 2. Filtering
+
+::: incremental
+-   Imagine you want to listen to just the **Cello** in a song. [Filtering]{.underline} is like turning down all the other instruments.
+:::
+
+::: fragment
+![](img/04a_Orchestra.png){fig-align="center"}
+:::
+
+## 2. Filtering
+
+-   Imagine you want to listen to just the **Cello** in a song. [Filtering]{.underline} is like turning down all the other instruments.
+
+![](img/04b_Orchestra.png){fig-align="center"}
+
+## 2. Filtering
+
+-   We do the same thing with EEG to focus on specific brainwave rhythms.
+
+![](img/05_Filtering.png){fig-align="center"}
+
+## 3. Making Sense of the Music
+
+-   Watching the Waves.
+    -   We can look at how the brainwaves change over time, like during a video game or when you’re solving a puzzle.
+
+![](img/06_Noisy.png){fig-align="center"}
+
+## 3. Making Sense of the Music
+
+-   Watching the Waves.
+    -   We can look at how the brainwaves change over time, like during a video game or when you’re solving a puzzle.
+
+![](img/06_Clean.png){fig-align="center"}
+
+## 3. Making Sense of the Music
+
+-   Watching the Waves.
+    -   We can look at how the brainwaves change over time, like during a video game or when you’re solving a puzzle.
+
+![](img/06_Clean.png){fig-align="center"}
+
+-   This is like watching a whole orchestra play, where each instrument’s sound changes over time.
+
+
+
+## EEG in the Real World
+
+## EEG in the Real World
+
+### Research:
+::: incremental
+
+-   Scientists use EEG to learn about how we sleep, pay attention, remember things, and feel emotions.
+-   It also helps us understand problems like epilepsy and how the brain changes as we get older.
+-   In our lab, we investigate language processing in the Brain
+:::
+
+
+## EEG in the Real World
+
+
+
+### Research:
+
+-   Scientists use EEG to learn about how we sleep, pay attention, remember things, and feel emotions.
+-   It also helps us understand problems like epilepsy and how the brain changes as we get older.
+-   In our lab, we investigate language processing in the Brain
+
+
+### Helping Doctors:
+
+::: incremental
+
+-   EEG helps doctors diagnose head injuries or other problems in the brain.
+
+:::
+
+## EEG in the Real World
+
+
+
+### Research:
+
+-   Scientists use EEG to learn about how we sleep, pay attention, remember things, and feel emotions.
+-   It also helps us understand problems like epilepsy and how the brain changes as we get older.
+-   In our lab, we investigate language processing in the Brain
+
+
+### Helping Doctors:
+
+-   EEG helps doctors diagnose head injuries or other problems in the brain.
+
+
+### Mind Control (Well Almost!) 😉
+
+
+
