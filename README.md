@@ -10,5 +10,5 @@
 ###### Location 
 
 `(ArtsOne 1.28): Electroencephalography (EEG) (also Child Acq.)`
-- Taught by: **Swarnendu Moitra** and **Dave Cayado**.
-- Célia Richy (volunteer participant)
+- Taught by: **[Swarnendu Moitra](http://swarmoi.github.io "Swarnendu Moitra")** and **[Dave Cayado](https://sites.google.com/view/dk-cayado/ "Dave Cayado")**.
+- [Célia Richy](https://sites.google.com/view/celiarichy "Célia Richy") (volunteer participant)

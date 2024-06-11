@@ -117,6 +117,7 @@ execute:
 -   This is like watching a whole orchestra play, where each instrument’s sound changes over time.
 
 
+# EEG in the Real World
 
 ## EEG in the Real World
 
