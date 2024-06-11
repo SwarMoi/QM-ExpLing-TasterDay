@@ -116,43 +116,33 @@ execute:
 
 -   This is like watching a whole orchestra play, where each instrument’s sound changes over time.
 
-
-
 ## EEG in the Real World
 
 ## EEG in the Real World
 
 ### Research:
-::: incremental
 
+::: incremental
 -   Scientists use EEG to learn about how we sleep, pay attention, remember things, and feel emotions.
 -   It also helps us understand problems like epilepsy and how the brain changes as we get older.
 -   In our lab, we investigate language processing in the Brain
 :::
 
-
 ## EEG in the Real World
-
-
 
 ### Research:
 
 -   Scientists use EEG to learn about how we sleep, pay attention, remember things, and feel emotions.
 -   It also helps us understand problems like epilepsy and how the brain changes as we get older.
 -   In our lab, we investigate language processing in the Brain
-
 
 ### Helping Doctors:
 
 ::: incremental
-
 -   EEG helps doctors diagnose head injuries or other problems in the brain.
-
 :::
 
 ## EEG in the Real World
-
-
 
 ### Research:
 
@@ -160,13 +150,8 @@ execute:
 -   It also helps us understand problems like epilepsy and how the brain changes as we get older.
 -   In our lab, we investigate language processing in the Brain
 
-
 ### Helping Doctors:
 
 -   EEG helps doctors diagnose head injuries or other problems in the brain.
-
 
 ### Mind Control (Well Almost!) 😉
-
-
-
