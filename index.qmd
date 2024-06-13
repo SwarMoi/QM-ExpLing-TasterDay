@@ -17,7 +17,7 @@ format:
       buttons: true
     pause: true
     mainfont: Cabinet Grotesk
-    footer: '**[Swarnendu Moitra](https://swarmoi.github.io.com)** //   swarmoi.github.io // Jun 12, 2024 '
+    footer: '**[Swarnendu Moitra](https://swarmoi.github.io.com)** //   <u>[swarmoi.github.io](https://swarmoi.github.io.com)</u> // **Jun 12, 2024** '
   #  logo: https://d33wubrfki0l68.cloudfront.net/d4cd9bd8e591d8973d68f98a71544bbe65d53733/79b34/img/logo.png
 editor: source
 knitr:
@@ -58,7 +58,13 @@ execute:
 ![](img/02_Raw_plot.png){fig-align="center"}
 :::
 
+::: footer
+:::
+
 # Preprocessing: Spring Cleaning for Brainwaves!
+
+::: footer
+:::
 
 ## 1. Removing Unwanted Signals
 
@@ -71,6 +77,9 @@ execute:
 ![](img/03_Artifacts.png){fig-align="center" width="1000"}
 :::
 
+::: footer
+:::
+
 ## 2. Filtering
 
 ::: incremental
@@ -81,17 +90,26 @@ execute:
 ![](img/04a_Orchestra.png){fig-align="center"}
 :::
 
+::: footer
+:::
+
 ## 2. Filtering
 
 -   Imagine you want to listen to just the **Cello** in a song. [Filtering]{.underline} is like turning down all the other instruments.
 
 ![](img/04b_Orchestra.png){fig-align="center"}
 
+::: footer
+:::
+
 ## 2. Filtering
 
 -   We do the same thing with EEG to focus on specific brainwave rhythms.
 
 ![](img/05_Filtering.png){fig-align="center"}
+
+::: footer
+:::
 
 ## 3. Making Sense of the Music
 
@@ -100,10 +118,16 @@ execute:
 
 ![](img/06_Noisy.png){fig-align="center"}
 
+::: footer
+:::
+
 ## 3. Making Sense of the Music
 
 -   Watching the Waves.
     -   We can look at how the brainwaves change over time, like during a video game or when you’re solving a puzzle.
+
+::: footer
+:::
 
 ![](img/06_Clean.png){fig-align="center"}
 
@@ -116,9 +140,18 @@ execute:
 
 -   This is like watching a whole orchestra play, where each instrument’s sound changes over time.
 
+::: footer
+:::
+
 # EEG in the Real World
 
+::: footer
+:::
+
 ## EEG in the Real World
+
+::: footer
+:::
 
 ## EEG in the Real World
 
@@ -128,6 +161,9 @@ execute:
 -   Scientists use EEG to learn about how we sleep, pay attention, remember things, and feel emotions.
 -   It also helps us understand problems like epilepsy and how the brain changes as we get older.
 -   In our lab, we investigate language processing in the Brain
+:::
+
+::: footer
 :::
 
 ## EEG in the Real World
@@ -142,6 +178,9 @@ execute:
 
 ::: incremental
 -   EEG helps doctors diagnose head injuries or other problems in the brain.
+:::
+
+::: footer
 :::
 
 ## EEG in the Real World
@@ -157,3 +196,16 @@ execute:
 -   EEG helps doctors diagnose head injuries or other problems in the brain.
 
 ### 🔮Mind Control (Well Almost!) 🤫
+
+::: footer
+:::
+
+# Thank you!
+
+<br>
+
+![](img/Trois_linguistes.png){fig-align="center" width="400" height="400" width="1080"}
+
+::: footer
+[**Swarnendu Moitra**](https://swarmoi.github.io.com) // [swarmoi.github.io](https://swarmoi.github.io.com) // **Jun 12, 2024**
+:::
